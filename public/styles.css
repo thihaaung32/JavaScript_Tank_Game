@@ -1,0 +1,79 @@
+/*
+Name: Thiha Aung
+Student ID: 923057314
+GitHub: thihaaung32    
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white; 
+    font-family: 'Arial', sans-serif;
+}
+
+
+#startButton {
+    display: block;
+    width: 200px; 
+    margin-left: 100px;
+    margin: 20px auto; 
+    padding: 10px;
+    font-size: 28px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#startButton:hover {
+    background-color: #45a049; 
+}
+
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto; 
+    border: 5px solid #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+#scoreBoard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #333;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#livesDisplay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #333;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#gameDescription {
+    display: block; 
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #d40d0d;
+    
+}
+
+.game-controls {
+    text-align: center;
+}
